@@ -1,0 +1,8 @@
+{
+    "test": {
+        "message": "This is a simple message"
+    },
+    "someroute": {
+        "message": "You have hit the test route."
+    }
+}
