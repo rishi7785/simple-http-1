@@ -4,5 +4,25 @@
     },
     "someroute": {
         "message": "You have hit the test route."
-    }
+    },
+    "posts": [
+        {
+            "id": 1,
+            "title": "Sample Post 1",
+            "description": "This is a description of post 1.",
+            "author": "Ron Bravo"
+        },
+        {
+            "id": 2,
+            "title": "Sample Post 2",
+            "description": "This is a description of post 2.",
+            "author": "Jane Doe"
+        },
+        {
+            "id": 3,
+            "title": "Sample Post 3",
+            "description": "This is a description of post 3.",
+            "author": "Jon Doe"
+        }
+    ]
 }
