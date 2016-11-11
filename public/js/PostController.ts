@@ -95,5 +95,15 @@ namespace App {
             .error ((response) => {
             });
         }
+
+        public editPost (postId) {
+            console.log ('post id: ' + postId);
+
+            this.stateService.go ('posts-edit',
+                {
+                    id: postId
+                }
+            );
+        }
     }
 }
