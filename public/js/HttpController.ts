@@ -9,6 +9,7 @@ namespace App {
         constructor ($http: angular.IHttpService) {
             this.httpService = $http;
             this.messageResult = '';
+            this.getRequest ();
         }
 
         public getRequest () {

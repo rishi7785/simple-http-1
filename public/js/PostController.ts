@@ -16,6 +16,8 @@ namespace App {
             this.httpService = $http;
             this.postList = [];
             this.newPost = {};
+
+            this.getPostList ();
         }
 
         public getPostList () {

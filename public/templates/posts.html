@@ -5,9 +5,11 @@
 <!-- List out the post objects -->
 <ul>
     <li ng-repeat="post in postController.postList">
-        <strong>title:</strong> {{ post.title }}
-        <strong>description:</strong> {{ post.description }}
-        <strong>author:</strong> {{ post.author }}
+        <div class="post">
+            <strong>title:</strong> {{ post.title }}
+            <strong>description:</strong> {{ post.description }}
+            <strong>author:</strong> {{ post.author }}
+        </div>
     </li>
 </ul>
 
