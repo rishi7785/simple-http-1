@@ -5,6 +5,8 @@ namespace App {
         private httpService;
         private stateService;
 
+        public post;
+
         constructor (
             $http: angular.IHttpService,
             $state: angular.ui.IState
@@ -21,9 +23,9 @@ namespace App {
             })
             .success ((response) => {
                 console.log (response);
+                this.post = response;
             })
             .error (() => {
-
             })
         }
     }
