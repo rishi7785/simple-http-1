@@ -7,16 +7,16 @@
   },
   "posts": [
     {
-      "title": "test post",
-      "description": "test description",
-      "author": "test author",
-      "id": 1
+      "title": "Sample Post 1",
+      "description": "some sample text",
+      "author": "ron bravo AFDSFS",
+      "id": 8
     },
     {
-      "title": "test post",
-      "description": "test description",
-      "author": "test author",
-      "id": 2
+      "title": 1,
+      "description": 2,
+      "author": 3,
+      "id": 10
     }
   ]
 }

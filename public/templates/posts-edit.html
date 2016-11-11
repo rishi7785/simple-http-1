@@ -1,6 +1,6 @@
 <h2>Posts Edit</h2>
 
-<form>
+<form ng-submit="postEditController.save ()">
     <label>Title</label>
     <input ng-model="postEditController.post.title">
     <br>
@@ -12,4 +12,6 @@
     <label>Author</label>
     <input ng-model="postEditController.post.author">
     <br>
+
+    <button>Save</button>
 <form>

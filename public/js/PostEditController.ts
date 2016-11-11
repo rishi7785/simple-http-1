@@ -28,5 +28,26 @@ namespace App {
             .error (() => {
             })
         }
+
+        public save () {
+            let updateId = this.stateService.params.id;
+
+            // Save the updated data to the server database.
+            this.httpService ({
+                url: '/posts/' + updateId,
+                method: 'PUT',
+                data: {
+                    title: this.post.title,
+                    description: this.post.description,
+                    author: this.post.author
+                }
+            })
+            .success (() => {
+                console.log ('Post saved.');
+                this.stateService.go ('posts');
+            })
+            .error (() => {
+            })
+        }
     }
 }
