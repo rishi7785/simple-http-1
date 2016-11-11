@@ -79,6 +79,16 @@ namespace App {
             });
         }
 
+        public editPost (postId) {
+            this.stateService.go ('posts-edit', {
+                id: postId
+            });
+
+            // this.stateService.go ('posts.edit', {
+            //     id: postId
+            // });
+        }
+
         public deletePost (id) {
             console.log ('Deleting Post: ' + id);
 

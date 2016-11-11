@@ -24,6 +24,15 @@ namespace App {
                     controller: App.PostController,
                     controllerAs: 'postController'
                 })
+                .state ('posts-edit', {
+                    url: '/posts/edit',
+                    templateUrl: 'templates/posts-edit.html',
+                    controller: App.PostEditController,
+                    controllerAs: 'postEditController',
+                    params: {
+                        id: null
+                    }
+                })
             ;
         }
     ]);
