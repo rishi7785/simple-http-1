@@ -1,8 +1,9 @@
 namespace App {
     export class PostController {
-        static $inject = ['$http'];
+        static $inject = ['$http', '$state'];
 
         private httpService;
+        private stateService;
 
         public postList;
         public currentPost;
@@ -12,8 +13,15 @@ namespace App {
         public description;
         public author;
 
-        constructor ($http: angular.IHttpService) {
+        constructor (
+            $http: angular.IHttpService,
+            $state: angular.ui.IState
+        ) {
             this.httpService = $http;
+            this.stateService = $state;
+
+            console.log ('- test: ', this.stateService);
+
             this.postList = [];
             this.newPost = {};
 
@@ -66,6 +74,23 @@ namespace App {
             })
             .success ((response) => {
                 console.log ('Test data: ', response);
+            })
+            .error ((response) => {
+            });
+        }
+
+        public deletePost (id) {
+            console.log ('Deleting Post: ' + id);
+
+            this.httpService ({
+                url: '/posts/' + id,
+                method: 'DELETE'
+            })
+            .success ((response) => {
+                console.log ('Object deleted.');
+                console.log ('Test data: ', response);
+
+                this.stateService.go ('home');
             })
             .error ((response) => {
             });

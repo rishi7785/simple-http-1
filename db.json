@@ -5,36 +5,5 @@
   "someroute": {
     "message": "You have hit the test route."
   },
-  "posts": [
-    {
-      "id": 1,
-      "title": "Sample Post 1",
-      "description": "This is a description of post 1.",
-      "author": "Ron Bravo"
-    },
-    {
-      "id": 2,
-      "title": "Sample Post 2",
-      "description": "This is a description of post 2.",
-      "author": "Jane Doe"
-    },
-    {
-      "id": 3,
-      "title": "Sample Post 3",
-      "description": "This is a description of post 3.",
-      "author": "Jon Doe"
-    },
-    {
-      "title": "Sample Post 5",
-      "description": "some sample data",
-      "author": "darth vadar",
-      "id": 13
-    },
-    {
-      "title": "This is a New Post",
-      "description": "assodfl;asdfsdjf;ksadj;fkj",
-      "author": "ron bravo",
-      "id": 14
-    }
-  ]
+  "posts": []
 }
