@@ -5,5 +5,18 @@
   "someroute": {
     "message": "You have hit the test route."
   },
-  "posts": []
+  "posts": [
+    {
+      "title": "test post",
+      "description": "test description",
+      "author": "test author",
+      "id": 1
+    },
+    {
+      "title": "test post",
+      "description": "test description",
+      "author": "test author",
+      "id": 2
+    }
+  ]
 }
