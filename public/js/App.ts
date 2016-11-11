@@ -28,7 +28,10 @@ namespace App {
                     url: '/posts/edit',
                     templateUrl: 'templates/posts-edit.html',
                     controller: App.PostEditController,
-                    controllerAs: 'postEditController'
+                    controllerAs: 'postEditController',
+                    params: {
+                        id: null
+                    }
                 })
             ;
         }
