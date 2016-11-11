@@ -9,3 +9,11 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
+
+.post input {
+    display: none;
+}
+
+.post.edit input {
+    display: inline-block;
+}

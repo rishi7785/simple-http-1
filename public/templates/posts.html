@@ -6,10 +6,13 @@
 <ul>
     <li ng-repeat="post in postController.postList">
         <div class="post">
-            <strong>title:</strong> {{ post.title }}
-            <strong>description:</strong> {{ post.description }}
-            <strong>author:</strong> {{ post.author }}
-            <button ng-click="postController.deletePost (post.id)">Delete Post</button>
+            <div>
+                <strong>title:</strong> {{ post.title }}
+                <strong>description:</strong> {{ post.description }}
+                <strong>author:</strong> {{ post.author }}
+
+                <button ng-click="postController.deletePost (post.id)">Delete Post</button>
+            </div>
         </div>
     </li>
 </ul>
