@@ -15,16 +15,6 @@ namespace App {
         }
 
         public getPostList () {
-            this.httpService ({
-                url: '/posts',
-                method: 'GET'
-            })
-            .success ((response) => {
-                console.log ('This is the response: ', response);
-                this.postList = response;
-            })
-            .error ((response) => {
-            })
         }
     }
 }
