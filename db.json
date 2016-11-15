@@ -10,22 +10,29 @@
       "title": "Sample Post 1",
       "description": "some sample text",
       "author": "jon doe",
+      "imageUrl": "https://d2v48i7nl75u94.cloudfront.net/uploads/a75925d96f8ae4c4df9305c518ce5edd.jpg",
       "id": 8
     },
     {
       "title": 1,
       "description": 2,
       "author": 3,
-      "id": 10
+      "id": 10,
+      "imageUrl": "http://staticna1.lacoste.com/aaup_prd/on/demandware.static/-/Sites-master/default/dwdc2dce0a/TH9298_J0Y_24.jpg"
     },
     {
       "title": "This is another test",
       "description": "some sample description",
       "author": "ron bravo",
-      "id": 11
+      "id": 11,
+      "imageUrl": "http://jstarsourcingbd.com/wp-content/uploads/2016/03/tshirt-14.jpg"
     },
     {
-      "id": 12
+      "id": 12,
+      "imageUrl": "http://jstarsourcingbd.com/wp-content/uploads/2016/03/tshirt-14.jpg",
+      "title": "Some sample",
+      "description": "lorem",
+      "author": "bob"
     }
   ]
 }

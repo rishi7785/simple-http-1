@@ -36,6 +36,7 @@ namespace App {
             console.log ('here');
             this.postService.getPostList ()
                 .success ((response) => {
+                    console.log ('Post items: ', response);
                     this.postList = response;
                 })
                 .error (() => {

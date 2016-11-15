@@ -11,6 +11,8 @@
                 <strong>description:</strong> {{ post.description }}
                 <strong>author:</strong> {{ post.author }}
 
+                <img src="{{ post.imageUrl }}">
+
                 <button ng-click="postController.deletePost (post.id)">Delete Post</button>
 
                 <button ng-click="postController.editPost (post.id)">Edit Post</button>

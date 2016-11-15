@@ -10,6 +10,14 @@ body {
     padding: 10px;
 }
 
+.post strong {
+    display: block;
+}
+
+.post img {
+    max-width: 320px;
+}
+
 .post input {
     display: none;
 }

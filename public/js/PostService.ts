@@ -1,4 +1,6 @@
 namespace App {
+    let app = angular.module ('App');
+
     export class PostService {
         static $inject = ['$http'];
 
@@ -51,6 +53,5 @@ namespace App {
         }
     }
 
-    let app = angular.module ('App');
     app.service ('PostService', PostService);
 }
