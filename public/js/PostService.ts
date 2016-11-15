@@ -38,6 +38,17 @@ namespace App {
 
             return promise;
         }
+
+        public update (id, post) {
+            // Save the updated data to the server database.
+            let promise = this.httpService ({
+                url: '/posts/' + id,
+                method: 'PUT',
+                data: post
+            })
+
+            return promise;
+        }
     }
 
     let app = angular.module ('App');

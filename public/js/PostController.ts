@@ -50,7 +50,7 @@ namespace App {
                 .success ((response) => {
                     console.log ('Test data: ', response);
                     // this.postList = response;
-                    // this.currentPost = response [0];
+                    this.currentPost = response [0];
                 })
                 .error ((response) => {
                 });
