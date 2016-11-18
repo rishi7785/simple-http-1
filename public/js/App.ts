@@ -18,6 +18,12 @@ namespace App {
                     controller: App.HttpController,
                     controllerAs: 'httpController'
                 })
+                .state ('sample-form', {
+                    url: '/sample-form',
+                    templateUrl: 'templates/sample-form.html',
+                    controller: App.SampleFormController,
+                    controllerAs: 'sampleFormController'
+                })
                 .state ('posts', {
                     url: '/posts',
                     templateUrl: 'templates/posts.html',
